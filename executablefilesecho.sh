@@ -1,0 +1,7 @@
+$1
+for i in * 
+do
+if [ -x $i ]
+then echo $i
+fi
+done 
